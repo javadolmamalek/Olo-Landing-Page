@@ -1,0 +1,57 @@
+/* ----------------------------------- */
+/*         ___  _        _             */
+/*        / _ \| | ___  (_)_ __        */
+/*       | | | | |/ _ \ | | '__|       */
+/*       | |_| | | (_) || | |          */
+/*        \___/|_|\___(_)_|_|          */
+/*                                     */
+/*        Mail: animation@Olo.ir       */
+/*   Designed by Olo Ads (Oloads.ir)   */
+/*                                     */
+/* ----------------------------------- */
+
+html, body {
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(left top, rgb(163, 19, 145) 0px, rgb(248, 167, 79) 100%);
+	background: -webkit-linear-gradient(left top, rgb(163, 19, 145) 0px, rgb(248, 167, 79) 100%);
+	background: -moz-linear-gradient(left top, rgb(163, 19, 145) 0px, rgb(248, 167, 79) 100%);
+	background-attachment: fixed;
+	font-family: 'vazir', Calibri;
+	direction: rtl;
+	text-align: right;
+}
+h1{
+	margin: 0;
+	color: #ffffff;
+	padding: 1em;
+	text-align: center;
+	background: #ffffff2b;
+	font-size: 1.2em;
+}
+ul{
+	list-style: none;
+	padding: 1em 2em;
+	margin: 0;
+}
+ul li,
+ul li a{
+	display: block;
+}
+ul li{
+	padding: .75em;
+}
+ul li a{
+	text-decoration: none;
+	border: .05rem solid #ffffff;
+	background: #ffffff2b;
+	color: #fff;
+	padding: .5em;
+	text-align: center;
+	font-size: .95em;
+}
+ul li a:hover{
+	background: #ffffff4b;
+}
