@@ -1,0 +1,156 @@
+/* ----------------------------------- */
+/*         ___  _        _             */
+/*        / _ \| | ___  (_)_ __        */
+/*       | | | | |/ _ \ | | '__|       */
+/*       | |_| | | (_) || | |          */
+/*        \___/|_|\___(_)_|_|          */
+/*                                     */
+/*        Mail: animation@Olo.ir       */
+/*   Designed by Olo Ads (Oloads.ir)   */
+/*                                     */
+/* ----------------------------------- */
+
+html, body {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #313050;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.noise{
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background-image: url(../image/noise.png);
+}
+.noise,
+.cache-storage{
+	position: fixed;
+}
+#loading.active,
+.noise,
+.none-click{
+	pointer-events: none;
+}
+#loading{
+	z-index: 50;
+}
+.index svg{
+	position: absolute;
+}
+.cache-storage{
+	visibility: hidden;
+	opacity:0;
+}
+#motor-link-hover,
+.object-disable,
+.game-dragged-lock{
+	display: none;
+}
+#timer-motor,
+#timer-video,
+#game-button,
+#game-button-exit,
+#game-button-new,
+#game-learn-button,
+#share-instagram,
+#share-telegram,
+#share-twitter,
+#share-whatsapp,
+#share-email{
+	cursor: pointer;
+}
+#timer-motor:hover #motor-link-hover,
+.game-dragged-lock.active{
+	display: block;
+}
+#timer-video{
+	fill:#ef4883;
+}
+#timer-video:hover{
+	fill:#ff518e;
+}
+#share-instagram{
+	fill:#ff6c41;
+}
+#share-instagram:hover{
+	fill:#ff9778;
+}
+#share-telegram{
+	fill:#25cccc;
+}
+#share-telegram:hover{
+	fill:#67e3e3;
+}
+#share-twitter{
+	fill:#00afc4;
+}
+#share-twitter:hover{
+	fill:#01e4ff;
+}
+#share-whatsapp{
+	fill:#91bb45;
+}
+#share-whatsapp:hover{
+	fill:#afce78;
+}
+#share-email{
+	fill:#ff5f5f;
+}
+#share-email:hover{
+	fill:#ff8282;
+}
+#game-button-exit-color,
+#game-button-new-color{
+	fill:#1074a1;
+}
+#game-button-exit:hover #game-button-exit-color,
+#game-button-new:hover #game-button-new-color{
+	fill:#1596d0;
+}
+#game-learn-button-background{
+	fill:#f65066;
+}
+#game-learn-button:hover #game-learn-button-background{
+	fill:#f86a7d;
+}
+@media only screen and (max-width: 800px){
+	.index.rotate{
+		transform: rotate(90deg);
+		position: absolute;
+	}
+	#timer-motor:hover #motor-link-hover{
+		display: none;
+	}
+	#timer-video:hover{
+		fill:#ef4883;
+	}
+	#share-instagram:hover{
+		fill:#ff6c41;
+	}
+	#share-telegram:hover{
+		fill:#25cccc;
+	}
+	#share-twitter:hover{
+		fill:#00afc4;
+	}
+	#share-whatsapp:hover{
+		fill:#91bb45;
+	}
+	#share-email:hover{
+		fill:#ff5f5f;
+	}
+	#game-button-exit:hover #game-button-exit-color,
+	#game-button-new:hover #game-button-new-color{
+		fill:#1074a1;
+	}
+	#game-learn-button:hover #game-learn-button-background{
+		fill:#f65066;
+	}
+}
