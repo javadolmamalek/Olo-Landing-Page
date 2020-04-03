@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="../css/vazir.css" rel="stylesheet" type="text/css">
+		<title>آگاه سازی ایمیلی</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<script src="../js/jquery-3.2.1.min.js"></script>
+		<script src="./core.js"></script>
+	</head>
+	<body>
+
+		<h1>ایمیل‌تان را وارد کنید تا وقتی زمان شمار به صفر رسید، با خبر بشید:</h1>
+
+ 		<form class="active" id="EmailForm" action="mail.php" method="post">
+ 			<ul>
+				<li><input id="email" type="email" name="email" placeholder="ایمیل خود را وارد کنید"></li>
+				<li><input type="submit" name="submit" disabled="disabled" value="ثبت ایمیل"></li>
+			</ul>
+		</form>
+
+		<ul>
+			<li class="loading">در حال ثبت ایمیل...</li>
+			<li class="error"></li>
+		</ul>
+		
+	</body>
+</html>

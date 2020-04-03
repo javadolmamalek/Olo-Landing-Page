@@ -1,0 +1,115 @@
+/* ----------------------------------- */
+/*         ___  _        _             */
+/*        / _ \| | ___  (_)_ __        */
+/*       | | | | |/ _ \ | | '__|       */
+/*       | |_| | | (_) || | |          */
+/*        \___/|_|\___(_)_|_|          */
+/*                                     */
+/*        Mail: animation@Olo.ir       */
+/*   Designed by Olo Ads (Oloads.ir)   */
+/*                                     */
+/* ----------------------------------- */
+
+html, body {
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+	background-attachment: fixed;
+	font-family: 'vazir', Calibri;
+	direction: rtl;
+	text-align: right;
+}
+h1{
+	margin: 0;
+	color: #000000;
+	padding: 1em;
+	text-align: center;
+	font-size: 1.1em;
+}
+ul{
+	list-style: none;
+	padding: 1em 2em;
+	margin: 0;
+}
+ul li{
+	display: block;
+	padding: .75em;
+}
+ul li.loading,
+ul li.error{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+ul li.loading,
+ul li.error,
+form{
+	display: none;
+}
+ul li.loading.active,
+ul li.error.active,
+form.active{
+	display: block;
+}
+ul li a{
+	text-decoration: none;
+    color: #e46f6f;
+}
+input[type=email]{
+	font-family: 'vazir', Calibri;
+	font-size: 1.5em;
+	font-weight: 100;
+	background: #fff;
+	border: .1em solid #ffffff;
+	padding: .5em 1em;
+	direction: ltr;
+	text-align: left;
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+}
+input[type=email]:focus{
+	border: .1em solid #3a4da7;
+}
+::-webkit-input-placeholder {
+	direction: rtl;
+	text-align: right;
+}
+::-moz-placeholder {
+	direction: rtl;
+	text-align: right;
+}
+:-ms-input-placeholder {
+	direction: rtl;
+	text-align: right;
+}
+:-moz-placeholder {
+	direction: rtl;
+	text-align: right;
+}
+input[type=submit]{
+	font-family: 'vazir', Calibri;
+	background: #3a4da7;
+	border: none;
+	padding: .5em 1em;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 1em;
+	cursor: pointer;
+	outline: none;
+}
+input[type=submit]:disabled{
+	background: #c7cce6;
+	cursor: default;
+}
+input[type=submit]:disabled:hover{
+	background: #c7cce6;
+}
+input[type=submit]:hover{
+	background: #576bca;
+}
